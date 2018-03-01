@@ -14,8 +14,12 @@ public class HelloWorldController {
 	public String hello2() {
 		return "hello world1";	
 		}
-	@RequestMapping("/hello2")
+	@RequestMapping("/hello3")
 	public String hello3() {
 		return "hello world3";	
+		}
+	@RequestMapping("/hello4")
+	public String hello34() {
+		return "hello world4";	
 		}
 }
