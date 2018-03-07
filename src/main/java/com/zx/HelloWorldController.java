@@ -19,7 +19,7 @@ public class HelloWorldController {
 		return "hello world3";	
 		}
 	@RequestMapping("/hello4")
-	public String hello4() {
+	public String hello6() {
 		return "hello world4";	
 		}
 	@RequestMapping("/hello5")
