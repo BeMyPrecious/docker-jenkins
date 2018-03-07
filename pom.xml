@@ -5,9 +5,9 @@
   <groupId>com.zx</groupId>
   <artifactId>spring-boot-helloworld</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <packaging>jar</packaging>
+  <packaging>war</packaging>
 
-  <name>spring-boot-helloworld</name>
+  <name>docker-jenkins</name>
   <url>http://maven.apache.org</url>
 	
 	<parent>
@@ -32,10 +32,14 @@
       <scope>test</scope>
     </dependency>
     <dependency>
-    <groupId>org.springframework.boot</groupId>
-    <artifactId>spring-boot-devtools</artifactId>
-    <optional>true</optional> <!-- 这个需要为 true 热部署才有效 -->
-    <scope>true</scope>
-</dependency>
+	    <groupId>org.springframework.boot</groupId>
+	    <artifactId>spring-boot-devtools</artifactId>
+	    <optional>true</optional> <!-- 这个需要为 true 热部署才有效 -->
+	    <scope>true</scope>
+	</dependency>
   </dependencies>
+  
+  <build>
+  	<finalName>docker-jenkins</finalName>
+  </build>
 </project>
