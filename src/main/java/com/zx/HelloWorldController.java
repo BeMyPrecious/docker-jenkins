@@ -23,7 +23,7 @@ public class HelloWorldController {
 		return "hello world4";	
 		}
 	@RequestMapping("/hello5")
-	public String hello5() {
+	public String hello4() {
 		return "hello world5";	
 		}
 }
